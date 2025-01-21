@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.params import Body
-from . import models
+from  . import models
 from .database import engine
 import psycopg2
 from psycopg2.extras import RealDictCursor
